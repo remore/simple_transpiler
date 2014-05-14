@@ -1,4 +1,4 @@
-class SampleTranspiler
+class SimpleTranspiler
   class << self
     def ruby2c(s)
       if s.instance_of?(String) then
