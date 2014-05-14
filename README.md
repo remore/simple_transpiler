@@ -1,7 +1,7 @@
 simple_transpiler
 =================
 
-An example of ruby2c transpiler, taking S-expressions parsed by Ripper as an input. 
+A prototype of ruby2c transpiler, taking S-expressions parsed by Ripper as an input. 
 
 Take note that simple_transpile supports VERY LIMITED set of ruby syntax. Feel free to folk and make your own transpiler starting from here.
 
@@ -9,7 +9,7 @@ Take note that simple_transpile supports VERY LIMITED set of ruby syntax. Feel f
 
 ```ruby
 require 'ripper'
-require './smple_transpiler'
+require './simple_transpiler'
 
 SimpleTranspiler.ruby2c(Ripper.sexp("a=1+1")) # a=1+1;
 
